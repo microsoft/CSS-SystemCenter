@@ -5,6 +5,7 @@ We welcome contributions. Each script contains a link to their GitHub repo for c
 
 | Product specific Support Web Sites |   
 | :------------------------ | 
-| [Service Manager - SCSM](https://khusmeno-ms.github.io/CSS-SystemCenter-ServiceManager) |
-| [Orchestrator - SCO](https://khusmeno-ms.github.io/CSS-SystemCenter-Orchestrator)  | 
+| [Operations Manager - SCOM](https://microsoft.github.io/CSS-SystemCenter-OperationsManager) |
+| [Service Manager - SCSM](https://microsoft.github.io/CSS-SystemCenter-ServiceManager) |
+| [Orchestrator - SCO](https://microsoft.github.io/CSS-SystemCenter-Orchestrator)  | 
 
