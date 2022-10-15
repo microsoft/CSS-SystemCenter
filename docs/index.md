@@ -1,13 +1,10 @@
-# SCSM Support Scripts
-
-This site contains scripts for supporting and troubleshooting Microsoft Service Manager (SCSM). The scripts are intended for identifying and resolving a wide range of issues regarding SCSM. 
+This site contains scripts & tools for supporting and troubleshooting Microsoft System Center products. The scripts are intended for identifying and resolving a wide range of issues regarding System Center products. 
 
 All scripts are developed and maintained by members of the Microsoft System Center technical support team.  
 We welcome contributions. Each script contains a link to GitHub for contributions.
 
-| Support Scripts |   
+| Product specific repo links |   
 | :------------------------ | 
-| [SCSM Diagnostic Tool](SCSM-Diagnostic-Tool) |
-| [Verify SSRS installation](Verify_SSRS_for_SCSM)  | 
+| [Service Manager - SCSM](https://github.com/microsoft/CSS-SystemCenter-ServiceManager) |
+| [Orchestrator - SCO](https://github.com/microsoft/CSS-SystemCenter-Orchestrator)  | 
 
-<!-- | [Correct Fact Problems](CorrectFactProblems)  | [CorrectFactProblemsV7.3.sql](https://github.com/microsoft/CSS-SystemCenter-ServiceManager/releases/latest/download/CorrectFactProblemsV7.3.sql) |  -->
