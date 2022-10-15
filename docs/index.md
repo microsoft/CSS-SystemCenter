@@ -3,7 +3,7 @@ This site contains scripts & tools for supporting and troubleshooting Microsoft 
 All scripts are developed and maintained by members of the Microsoft System Center technical support team.  
 We welcome contributions. Each script contains a link to their GitHub repo for contributions.
 
-| Product specific repo links |   
+| Product specific Support Web Site |   
 | :------------------------ | 
 | [Service Manager - SCSM](https://khusmeno-ms.github.io/CSS-SystemCenter-ServiceManager) |
 | [Orchestrator - SCO](https://khusmeno-ms.github.io/CSS-SystemCenter-Orchestrator)  | 
