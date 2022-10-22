@@ -7,7 +7,7 @@ We welcome contributions. Each script contains a link to their GitHub repo for c
 
   <div style="float: left">
     <div>
-      <img src="SCOM.png" href="https://github.com/blakedrumm/SCOM-Scripts-and-SQL"/>
+      <a href="https://github.com/blakedrumm/SCOM-Scripts-and-SQL"><img src="SCOM.png" /></a>
     </div>
     <div style="text-align: center"><a href="https://github.com/blakedrumm/SCOM-Scripts-and-SQL">Operations Manager - SCOM</a></div>
   </div>
