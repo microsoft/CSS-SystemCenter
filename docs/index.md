@@ -9,14 +9,14 @@ We welcome contributions. Each script contains a link to their GitHub repo for c
     <div>
       <a href="https://github.com/blakedrumm/SCOM-Scripts-and-SQL"><img src="SCOM.png" /></a>
     </div>
-    <div style="text-align: center"><a href="https://github.com/blakedrumm/SCOM-Scripts-and-SQL">Operations Manager - SCOM</a></div>
+    <div style="text-align: center; font-size: larger"><a href="https://github.com/blakedrumm/SCOM-Scripts-and-SQL">Operations Manager - SCOM</a></div>
   </div>
   
   <div>
     <div style="text-align: center">
       <a href="https://microsoft.github.io/CSS-SystemCenter-ServiceManager"><img src="SCSM.png" /></a>
     </div>
-    <div style="text-align: center"><a href="https://microsoft.github.io/CSS-SystemCenter-ServiceManager">Service Manager - SCSM</a></div>
+    <div style="text-align: center; font-size: larger"><a href="https://microsoft.github.io/CSS-SystemCenter-ServiceManager">Service Manager - SCSM</a></div>
   </div>
 
   <br/><br/>
@@ -25,14 +25,14 @@ We welcome contributions. Each script contains a link to their GitHub repo for c
     <div>
       <a href="https://microsoft.github.io/CSS-SystemCenter-Orchestrator"><img src="SCO.png" /></a>
     </div>
-    <div style="text-align: center"><a href="https://microsoft.github.io/CSS-SystemCenter-Orchestrator">Orchestrator - SCO</a></div>
+    <div style="text-align: center; font-size: larger"><a href="https://microsoft.github.io/CSS-SystemCenter-Orchestrator">Orchestrator - SCO</a></div>
   </div>
 
   <div>
     <div style="text-align: center">
       <a href="https://github.com/blakedrumm/SCVMM-Scripts-and-SQL"><img src="VMM.png" /></a>
     </div>
-    <div style="text-align: center"><a href="https://github.com/blakedrumm/SCVMM-Scripts-and-SQL">Virtual Machine Manager - VMM</a></div>
+    <div style="text-align: center; font-size: larger"><a href="https://github.com/blakedrumm/SCVMM-Scripts-and-SQL">Virtual Machine Manager - VMM</a></div>
   </div>
 
 </div>
