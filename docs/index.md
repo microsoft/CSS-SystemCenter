@@ -4,8 +4,15 @@ All scripts are developed and maintained by members of the Microsoft System Cent
 We welcome contributions. Each script contains a link to their GitHub repo for contributions.
 
 <div>
+
   <div>
     <div><img src="SCOM.png" /></div>
-    <div style="align:center"><a href="https://github.com/blakedrumm/SCOM-Scripts-and-SQL">Operations Manager - SCOM</a></div>
+    <div style="text-align:center"><a href="https://github.com/blakedrumm/SCOM-Scripts-and-SQL">Operations Manager - SCOM</a></div>
   </div>
+  
+  <div>
+    <div><img src="SCSM.png" /></div>
+    <div style="text-align:center"><a href="https://microsoft.github.io/CSS-SystemCenter-ServiceManager">Service Manager - SCSM</a></div>
+  </div>
+
 </div>
