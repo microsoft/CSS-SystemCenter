@@ -14,7 +14,7 @@ We welcome contributions. Each script contains a link to their GitHub repo for c
   
   <div>
     <div style="text-align: center">
-      <img src="SCSM.png" href="https://microsoft.github.io/CSS-SystemCenter-ServiceManager"/>
+      <a href="https://microsoft.github.io/CSS-SystemCenter-ServiceManager"><img src="SCSM.png" /></a>
     </div>
     <div style="text-align: center"><a href="https://microsoft.github.io/CSS-SystemCenter-ServiceManager">Service Manager - SCSM</a></div>
   </div>
@@ -23,14 +23,14 @@ We welcome contributions. Each script contains a link to their GitHub repo for c
   
   <div style="float: left">
     <div>
-      <img src="SCO.png" href="https://microsoft.github.io/CSS-SystemCenter-Orchestrator"/>
+      <a href="https://microsoft.github.io/CSS-SystemCenter-Orchestrator"><img src="SCO.png" /></a>
     </div>
     <div style="text-align: center"><a href="https://microsoft.github.io/CSS-SystemCenter-Orchestrator">Orchestrator - SCO</a></div>
   </div>
 
   <div>
     <div style="text-align: center">
-      <img src="VMM.png" href="https://github.com/blakedrumm/SCVMM-Scripts-and-SQL"/>
+      <a href="https://github.com/blakedrumm/SCVMM-Scripts-and-SQL"><img src="VMM.png" /></a>
     </div>
     <div style="text-align: center"><a href="https://github.com/blakedrumm/SCVMM-Scripts-and-SQL">Virtual Machine Manager - VMM</a></div>
   </div>
