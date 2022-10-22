@@ -10,18 +10,20 @@ We welcome contributions. Each script contains a link to their GitHub repo for c
     <div style="text-align: center"><a href="https://github.com/blakedrumm/SCOM-Scripts-and-SQL">Operations Manager - SCOM</a></div>
   </div>
   
-  <div style="float: left">
-    <div><img src="SCSM.png" /></div>
+  <div>
+    <div style="text-align: center"><img src="SCSM.png" /></div>
     <div style="text-align: center"><a href="https://microsoft.github.io/CSS-SystemCenter-ServiceManager">Service Manager - SCSM</a></div>
   </div>
 
+  <br/><br/>
+  
   <div style="float: left">
     <div><img src="SCO.png" /></div>
     <div style="text-align: center"><a href="https://microsoft.github.io/CSS-SystemCenter-Orchestrator">Orchestrator - SCO</a></div>
   </div>
 
-  <div style="float: left">
-    <div><img src="VMM.png" /></div>
+  <div>
+    <div style="text-align: center"><img src="VMM.png" /></div>
     <div style="text-align: center"><a href="https://github.com/blakedrumm/SCVMM-Scripts-and-SQL">Virtual Machine Manager - VMM</a></div>
   </div>
 
