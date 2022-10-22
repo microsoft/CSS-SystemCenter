@@ -3,7 +3,7 @@ This site contains links to scripts & tools for supporting and troubleshooting M
 All scripts are developed and maintained by members of the Microsoft System Center technical support team.  
 We welcome contributions. Each script contains a link to their GitHub repo for contributions.
 
-<div style="float: left; width: 100%">
+<div style="float: left; width: 100%; transform:scale(0.8)">
 
   <div style="float: left">
     <div>
