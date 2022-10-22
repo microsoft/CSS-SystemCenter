@@ -6,24 +6,32 @@ We welcome contributions. Each script contains a link to their GitHub repo for c
 <div style="float: left; width: 100%">
 
   <div style="float: left">
-    <div><img src="SCOM.png" /></div>
+    <div>
+      <img src="SCOM.png" href="https://github.com/blakedrumm/SCOM-Scripts-and-SQL"/>
+    </div>
     <div style="text-align: center"><a href="https://github.com/blakedrumm/SCOM-Scripts-and-SQL">Operations Manager - SCOM</a></div>
   </div>
   
   <div>
-    <div style="text-align: center"><img src="SCSM.png" /></div>
+    <div style="text-align: center">
+      <img src="SCSM.png" href="https://microsoft.github.io/CSS-SystemCenter-ServiceManager"/>
+    </div>
     <div style="text-align: center"><a href="https://microsoft.github.io/CSS-SystemCenter-ServiceManager">Service Manager - SCSM</a></div>
   </div>
 
   <br/><br/>
   
   <div style="float: left">
-    <div><img src="SCO.png" /></div>
+    <div>
+      <img src="SCO.png" href="https://microsoft.github.io/CSS-SystemCenter-Orchestrator"/>
+    </div>
     <div style="text-align: center"><a href="https://microsoft.github.io/CSS-SystemCenter-Orchestrator">Orchestrator - SCO</a></div>
   </div>
 
   <div>
-    <div style="text-align: center"><img src="VMM.png" /></div>
+    <div style="text-align: center">
+      <img src="VMM.png" href="https://github.com/blakedrumm/SCVMM-Scripts-and-SQL"/>
+    </div>
     <div style="text-align: center"><a href="https://github.com/blakedrumm/SCVMM-Scripts-and-SQL">Virtual Machine Manager - VMM</a></div>
   </div>
 
