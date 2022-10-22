@@ -3,11 +3,9 @@ This site contains links to scripts & tools for supporting and troubleshooting M
 All scripts are developed and maintained by members of the Microsoft System Center technical support team.  
 We welcome contributions. Each script contains a link to their GitHub repo for contributions.
 
-| Product specific Support Web Sites |   
-| :------------------------ | 
-| ![SCOM icon](SCOM.png "SCOM Icon") [Operations Manager - SCOM](https://github.com/blakedrumm/SCOM-Scripts-and-SQL) |
-| ![SCSM icon](SCSM.png "SCSM Icon") [Service Manager - SCSM](https://microsoft.github.io/CSS-SystemCenter-ServiceManager) |
-| ![SCO icon](SCO.png "SCO Icon") [Orchestrator - SCO](https://microsoft.github.io/CSS-SystemCenter-Orchestrator)  | 
-| ![SCVMM icon](VMM.png "VMM Icon") [Virtual Machine Manager - VMM](https://github.com/blakedrumm/SCVMM-Scripts-and-SQL) |
-
-
+<div>
+  <div>
+    <div><img src="SCOM.png" /></div>
+    <div style="align:center"><a href="https://github.com/blakedrumm/SCOM-Scripts-and-SQL">Operations Manager - SCOM</a></div>
+  </div>
+</div>
