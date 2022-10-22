@@ -1,8 +1,11 @@
 # Purpose
 
 This repo just builds to a [*GitHub Pages* site](https://microsoft.github.io/CSS-SystemCenter), which contains links to other repos. These repos contain Support Scripts & Tools for System Center products like
+
+- Operations Manager (SCOM)
 - Service Manager (SCSM)
 - Orchestrator (SCO)
+- Virtual Machine Manager (VMM)
 
 These repos are maintained by Microsoft technical support engineers in Customer Suppport Services (CSS).
 
