@@ -6,7 +6,7 @@ This repo just builds to a [*GitHub Pages* site](https://microsoft.github.io/CSS
 - Orchestrator (SCO)
 - Virtual Machine Manager (VMM)
 
-These repos are maintained by Microsoft technical support engineers in Customer Suppport Services (CSS).
+These repos are maintained by Microsoft technical support engineers in Customer Support Services (CSS).
 
 ## Contributing
 
