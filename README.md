@@ -1,5 +1,5 @@
 # Purpose
-This repo just builds to a [*GitHub Pages* site](https://microsoft.github.io/CSS-SystemCenter), which contains links to Support Scripts used by other System Center products like
+This repo just builds to a [*GitHub Pages* site](https://microsoft.github.io/CSS-SystemCenter), which contains links to Support Scripts used by other System Center products like:
 
 - [Operations Manager (SCOM)](https://github.com/microsoft/CSS-SystemCenter-OperationsManager)
 - [Service Manager (SCSM)](https://microsoft.github.io/CSS-SystemCenter-ServiceManager)
