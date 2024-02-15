@@ -1,6 +1,6 @@
 This site contains links to scripts & tools for supporting and troubleshooting Microsoft System Center products. The scripts are intended for identifying and resolving a wide range of issues regarding System Center products. 
 
-All scripts are developed and maintained by members of the Microsoft System Center technical support team.  
+All scripts & tools are developed and maintained by members of the Microsoft System Center technical support team as open-source projects in GitHub.  
 We welcome contributions. Each script contains a link to their GitHub repo for contributions.
 
 <div style="float: left; width: 100%; transform:scale(0.8)">
