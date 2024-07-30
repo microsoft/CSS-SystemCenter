@@ -7,9 +7,9 @@ We welcome contributions. Each script contains a link to their GitHub repo for c
 
   <div style="float: left">
     <div>
-      <a href="https://github.com/blakedrumm/SCOM-Scripts-and-SQL"><img src="SCOM.png" /></a>
+      <a href="https://github.com/microsoft/CSS-SystemCenter-OperationsManager"><img src="SCOM.png" /></a>
     </div>
-    <div style="text-align: center; font-size: larger"><a href="https://github.com/blakedrumm/SCOM-Scripts-and-SQL">Operations Manager - SCOM</a></div>
+    <div style="text-align: center; font-size: larger"><a href="https://github.com/microsoft/CSS-SystemCenter-OperationsManager">Operations Manager - SCOM</a></div>
   </div>
   
   <div>
