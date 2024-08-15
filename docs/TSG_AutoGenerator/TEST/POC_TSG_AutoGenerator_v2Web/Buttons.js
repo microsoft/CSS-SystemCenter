@@ -1,4 +1,4 @@
-﻿function copyToClipboardAsHTML() {
+﻿function copyToClipboard() {
     var bodyText = document.getElementById('item-body').innerHTML;
     bodyText = bodyText.replace(/<o:p>|<\/o:p>/g, ''); //special case where those elements are injected in order to enable Word to convert the HTML back to fully compatible Word document, with everything preserved.
     //bodyText = bodyText.replace(/(Issue|Issues|Symptom|Symptoms):/g, '<b>$1:</b>'); //special case to add bold for Issue
@@ -15,6 +15,9 @@
     // Concatenate all the text
     const clipboardText = `${extraPhrase}${bodyText}`;
 
+    openBrowser();
+
+
     // Attempt to use the Clipboard API
     if (navigator.clipboard && window.isSecureContext) {
         navigator.clipboard.writeText(clipboardText).then(function () {
@@ -27,6 +30,7 @@
         // Fallback method for older browsers or when Clipboard API is blocked
         fallbackCopyTextToClipboard(clipboardText);
     }
+
 }
 
 
@@ -78,18 +82,32 @@ function fallbackCopyTextToClipboard(text) {
 }
 
 
+function openBrowser() {
 
-function copyToClipboardAsMarkDown() {
+    //TODO for user
+    var product = document.getElementById('item-product');
+    var selectedValue = product.selectedOptions[0].text;
 
+    if (selectedValue === "SCOM") {
+        window.open("https://dev.azure.com/Supportability/AzureMonitor/_wiki/wikis/AzureMonitor.wiki/1446664/SCOM", "_blank");
+    }
+    if (selectedValue === "SCOM MI") {
+        window.open("https://dev.azure.com/Supportability/AzureMonitor/_wiki/wikis/AzureMonitor.wiki/1565150/SCOMMI", "_blank");
+    }
+    if (selectedValue === "SCSM") {
+        window.open("https://dev.azure.com/Supportability/AzureMonitor/_wiki/wikis/AzureMonitor.wiki/1446666/SCSM", "_blank");
+    }
+    if (selectedValue === "SCORCH") {
+        window.open("https://dev.azure.com/Supportability/AzureMonitor/_wiki/wikis/AzureMonitor.wiki/1446668/SCORCH", "_blank");
+    }
+    if (selectedValue === "VMM") {
+        window.open("https://dev.azure.com/Supportability/AzureMonitor/_wiki/wikis/AzureMonitor.wiki/1446670/SCVMM", "_blank");
+    }
+    else {
+        window.open("https://dev.azure.com/Supportability/AzureMonitor/_wiki/wikis/AzureMonitor.wiki/1446663/Hybrid-Sandbox", "_blank");
+    }   
 }
 
-function uploadTSG() {
-    const bodyText = document.getElementById('item-body').innerHTML;
-
-    // Extra phrase to be added
-    const extraPhrase = ":::template /.templates/Common-Header.md\n:::\n\n::: template /.templates/Sandbox-Header.md\n:::\n\n";
-
-    // Concatenate all the text
-    const clipboardText = `${extraPhrase}${bodyText}`;
-}
-
+window.onload = function () {
+    document.querySelector("button").addEventListener("click", copyToClipboard);
+};

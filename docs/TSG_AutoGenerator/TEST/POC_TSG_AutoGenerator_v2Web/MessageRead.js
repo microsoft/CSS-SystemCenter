@@ -8,7 +8,6 @@
             // The document is ready
             loadItemProps(Office.context.mailbox.item);
             getEmailBody(Office.context.mailbox.item);
-            getImages();
         });
     });
 
@@ -41,36 +40,6 @@
              }
          });
      }
-     
-    function getImages() {
-        const tempDiv = document.getElementById('item-body').innerHTML;
-        // Extract images and convert to Base64
-        const images = tempDiv.getElementsByTagName('img');
-        Array.from(images).forEach((img, index) => {
-            const cid = img.getAttribute('src');
-            const altText = img.getAttribute('alt');
-
-            // Convert image src to Base64 (assuming it is a CID)
-            fetch(cid)
-                .then(response => response.blob())
-                .then(blob => {
-                    const reader = new FileReader();
-                    reader.onloadend = function () {
-                        const base64data = reader.result;
-
-                        // Display Base64 string
-                        const imgInfo = document.createElement('div');
-                        imgInfo.innerHTML = `<p>Image ${index + 1}:</p>
-                                                 <p><strong>CID:</strong> ${cid}</p>
-                                                 <p><strong>Alt Text:</strong> ${altText}</p>
-                                                 <textarea style="width:100%;height:100px;">${base64data}</textarea>`;
-                        imagesContainer.appendChild(imgInfo);
-                    }
-                    reader.readAsDataURL(blob);
-                });
-        });
-
-    }
 
 })();
 
