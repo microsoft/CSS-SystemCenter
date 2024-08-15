@@ -5,7 +5,7 @@
   <!-- IMPORTANT! Id must be unique for your add-in, if you reuse this manifest ensure that you change this id to a new GUID. -->
   <Id>6af84bf6-c6e3-4e7a-bacf-29546861abb2</Id>
   <!--Version. Updates from the store only get triggered if there is a version change. -->
-  <Version>2024.08.15.1805</Version>
+  <Version>2024.08.15.1850</Version>
   <ProviderName>CSS-SystemCenter</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
