@@ -9,8 +9,8 @@
   <ProviderName>Daniel Creanga</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
-  <DisplayName DefaultValue="POC_TSG_AutoGenerator_v2" />
-  <Description DefaultValue="POC_TSG_AutoGenerator_v2" />
+  <DisplayName DefaultValue="TEST-TSG AutoGenerator" />
+  <Description DefaultValue="TEST-TSG AutoGenerator" />
   <IconUrl DefaultValue="https://microsoft.github.io/CSS-SystemCenter/TSG_AutoGenerator/TEST/POC_TSG_AutoGenerator_v2Web/Images/Icon64.png" />
   <SupportUrl DefaultValue="http://www.contoso.com" />
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
