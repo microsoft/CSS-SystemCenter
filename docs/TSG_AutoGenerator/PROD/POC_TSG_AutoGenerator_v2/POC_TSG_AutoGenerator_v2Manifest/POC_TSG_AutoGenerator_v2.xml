@@ -5,12 +5,12 @@
   <!-- IMPORTANT! Id must be unique for your add-in, if you reuse this manifest ensure that you change this id to a new GUID. -->
   <Id>ed1376ad-5eb7-4238-85c4-762652a8ea0b</Id>
   <!--Version. Updates from the store only get triggered if there is a version change. -->
-  <Version>2024.08.15.1918</Version>
+  <Version>2024.08.15.1850</Version>
   <ProviderName>CSS-SystemCenter</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
   <DisplayName DefaultValue="TSG AutoGenerator" />
-  <Description DefaultValue="TSG AutoGenerator" />
+  <Description DefaultValue="Helpes to quickly generate a TSG in Hybrid Sandbox based on content of a case closure email message." />
   <IconUrl DefaultValue="https://microsoft.github.io/CSS-SystemCenter/TSG_AutoGenerator/PROD/POC_TSG_AutoGenerator_v2Web/Images/Icon64.png" />
   <SupportUrl DefaultValue="http://www.contoso.com" />
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
