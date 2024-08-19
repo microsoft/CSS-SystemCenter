@@ -168,7 +168,7 @@ $payload =
     "content": "|||subPageBodyInPayLOAD|||"
 }
 '@
-$payload = $payload.Replace("|||subPageBodyInPayLOAD|||", $subPageBody.Replace('"', "\""))
+$payload = $payload.Replace("|||subPageBodyInPayLOAD|||", $subPageBody)
 Invoke-RestMethod -Uri $wikiUrl -Method Put -ContentType "application/json" -Headers $adoHeaders -Body $payload
 `;
 
