@@ -126,9 +126,9 @@ function copyAsPowerShell(){
     var selectedValue = product.selectedOptions[0].text;
 
 
-    if (selectedValue === "-- Select a Product --") {
+   /* if (selectedValue === "-- Select a Product --") {
         break;
-    }
+    }*/
 
     //find sender
     var sender = document.getElementById('item-user').innerHTML;
