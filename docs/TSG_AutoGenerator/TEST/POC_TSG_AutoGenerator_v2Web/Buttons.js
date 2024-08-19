@@ -134,7 +134,7 @@ function copyAsPowerShell(){
     var sender = document.getElementById('item-user').innerHTML;
 
     //find subject
-    var subject = document.getElementById('item-subject').text;
+    var subject = document.getElementById('item-subject').innerHTML;
 
 
     // Concatenate all the text
