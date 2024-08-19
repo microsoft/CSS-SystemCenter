@@ -1,5 +1,5 @@
 ﻿function copyToClipboard() {
-    openBrowser(); //conflict
+    //openBrowser(); //conflict
     var bodyText = document.getElementById('item-body').innerHTML;
     bodyText = bodyText.replace(/<o:p>|<\/o:p>/g, ''); //special case where those elements are injected in order to enable Word to convert the HTML back to fully compatible Word document, with everything preserved.
     //bodyText = bodyText.replace(/(Issue|Issues|Symptom|Symptoms):/g, '<b>$1:</b>'); //special case to add bold for Issue
@@ -124,6 +124,8 @@ function copyAsPowerShell(){
     //find Product
     var product = document.getElementById('item-product');
     var selectedValue = product.selectedOptions[0].text;
+
+
     if (selectedValue === "-- Select a Product --") {
         break;
     }
