@@ -134,12 +134,11 @@ $aliasName = "TSG AutoGenerator"
 $subPageTitle = "test wiki submitted via ADO API"
 $subPageBody =
 @'
+!!!Attention!!!
+    Please review the document and remove any sensitive customer data.
+    Page generated with PS by user ${sender}
+
 ${extraPhrase}
-
-Attention!!!
-Page generated autoamtically with PS by user ${sender} .
-Please review the document and remove any sesnstive customer data.
-
 ${bodyText}
 '@
 
@@ -147,7 +146,7 @@ ${bodyText}
 #region Azure CLI is required to get an ADO token
 if (-not (get-command az)) {
     $msgStr = "Azure CLI has to be installed. Run the below in an ELEVATED PS window, open a new PS instance and then re-run this script."
-    $msgStr += "    $ProgressPreference = "SilentlyContinue"; Invoke-WebRequest -Uri https://aka.ms/installazurecliwindowsx64 -OutFile .AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList "/I AzureCLI.msi /quiet; Remove-Item .AzureCLI.msi"
+    $msgStr += "    $ProgressPreference = 'SilentlyContinue'; Invoke-WebRequest -Uri https://aka.ms/installazurecliwindowsx64 -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'; Remove-Item .\AzureCLI.msi"
     Write - Error $msgStr
     return
 }
@@ -158,7 +157,7 @@ $accessTokenJson = az account get-access-token | ConvertFrom-Json
 
 $bearerTokenId = $accessTokenJson.accessToken
 $adoHeaders = @{
-    'Authorization' = "bearer $bearerTokenId"
+    "Authorization" = "bearer $bearerTokenId"
     "accept"= "application/json;api-version=5.0-preview.1;excludeUrls=true;enumsAsNumbers=true;msDateFormat=true;noArrayWrap=true"
 }
 $wikiUrl = "https://dev.azure.com/supportability/AzureMonitor/_apis/wiki/wikis/AzureMonitor.wiki/pages?path=/Sandbox/Hybrid%20Sandbox/$productName/$aliasName/$subPageTitle&api-version=7.1-preview.1"
@@ -169,7 +168,7 @@ $payload =
     "content": "|||subPageBodyInPayLOAD|||"
 }
 '@
-$payload = $payload.Replace("|||subPageBodyInPayLOAD|||", $subPageBody.Replace('"', "'"))
+$payload = $payload.Replace("|||subPageBodyInPayLOAD|||", $subPageBody.Replace('"', "\""))
 Invoke-RestMethod -Uri $wikiUrl -Method Put -ContentType "application/json" -Headers $adoHeaders -Body $payload
 `;
 
