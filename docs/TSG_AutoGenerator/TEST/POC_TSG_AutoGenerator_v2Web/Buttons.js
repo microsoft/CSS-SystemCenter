@@ -119,7 +119,7 @@ function copyAsPowerShell(){
     console.log(bodyText);
 
     // Extra phrase to be added
-    var extraPhrase = ":::template /.templates/Common-Header.md\n:::\n\n::: template /.templates/Sandbox-Header.md\n:::\n\n";
+    var extraPhrase = ":::template /.templates/Common-Header.md\n:::\n\n:::template /.templates/Sandbox-Header.md\n:::\n\n";
 
     //find Product
     var product = document.getElementById('item-product');
