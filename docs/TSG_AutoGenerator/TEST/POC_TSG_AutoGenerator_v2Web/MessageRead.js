@@ -20,6 +20,22 @@
         $('#item-product').text(subjectText);
         */
         $('#item-user').html(item.from.displayName + " &lt;" + item.from.emailAddress + "&gt;<br>");
+
+
+        //find Product
+        var product = document.getElementById('item-product');
+
+        console.log("Hello World");
+        product.addEventListener('change', function () {
+            var selectedValue = product.selectedOptions[0].text; 
+            if (selectedValue === "-- Select a Product --") {
+                document.getElementById('copyAsPowerShell').disabled = true;
+            }
+            else {
+                document.getElementById('copyAsPowerShell').disabled = false;
+            }
+        });
+
     }
 
      function getEmailBody(item) {
@@ -27,13 +43,11 @@
          item.body.getAsync(Office.CoercionType.Html, (bodyResult) => {
              if (bodyResult.status === Office.AsyncResultStatus.Succeeded) {
                  var body = bodyResult.value;
-                 const bodyRegex = /(Issue[s]?|Symptom[s]?):[\s\S]*?(?=\bBest Regards\b)/i;
-                 //const bodyRegex = /[\s\S]*?(?=\bBest Regards)\b/i;
+                 const bodyRegex = /(Issue[s]?|Symptom[s]?):[\s\S]*?(?=\b(Best Regards|Kind Regards|Thank you,)\b)/i;
+                 //v2 const bodyRegex = /(Issue[s]?|Symptom[s]?):[\s\S]*?(?=\bBest Regards\b)/i;
+                 //v1 const bodyRegex = /[\s\S]*?(?=\bBest Regards)\b/i;
                  const bodyMatch = body.match(bodyRegex);
                  const bodyText = bodyMatch ? bodyMatch[0].trim() : "No Body found";
-
-
-
                  $('#item-body').html(bodyText); 
              } else {
                  console.log(bodyResult.error.message);
