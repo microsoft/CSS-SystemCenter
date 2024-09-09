@@ -1,4 +1,22 @@
-﻿function copyToClipboard() {
+﻿
+
+//find Product
+var product = document.getElementById('item-product');
+
+console.log("Hello World");
+product.addEventListener('change', function () {
+    var selectedValue = product.selectedOptions[0].text;
+    console.log('Product changed to:', selectedValue);
+
+    if (selectedValue === "-- Select a Product --") {
+        document.getElementById('copyAsPowerShell').disabled = true;
+    }
+    else {
+        document.getElementById('copyAsPowerShell').disabled = false;
+    }
+});
+
+function copyToClipboard() {
     //openBrowser(); //conflict
     var bodyText = document.getElementById('item-body').innerHTML;
     bodyText = bodyText.replace(/<o:p>|<\/o:p>/g, ''); //special case where those elements are injected in order to enable Word to convert the HTML back to fully compatible Word document, with everything preserved.

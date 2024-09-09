@@ -21,21 +21,6 @@
         */
         $('#item-user').html(item.from.displayName + " &lt;" + item.from.emailAddress + "&gt;<br>");
 
-
-        //find Product
-        var product = document.getElementById('item-product');
-
-        console.log("Hello World");
-        product.addEventListener('change', function () {
-            var selectedValue = product.selectedOptions[0].text; 
-            if (selectedValue === "-- Select a Product --") {
-                document.getElementById('copyAsPowerShell').disabled = true;
-            }
-            else {
-                document.getElementById('copyAsPowerShell').disabled = false;
-            }
-        });
-
     }
 
      function getEmailBody(item) {
