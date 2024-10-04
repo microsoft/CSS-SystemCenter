@@ -1,4 +1,4 @@
-name: Main Branch Protection
+name: Main Branch Protection from RecoveryTextApp branch
 
 on:
   pull_request:
@@ -6,13 +6,13 @@ on:
       - main
 
 jobs:
-  check-branch:
+  check-source-branch:
     runs-on: ubuntu-latest
     steps:
       - name: Check branch
         run: |
-          if [[ ${GITHUB_HEAD_REF} == test-deletelater ]]; 
+          if [[ ${GITHUB_HEAD_REF} == RecoveryTextApp ]]; 
           then
-            echo "Error: Pull request must NOT come from 'test-deletelater' branch"
+            echo "Error: Pull request must NOT come from 'RecoveryTextApp' branch"
             exit 1
           fi
