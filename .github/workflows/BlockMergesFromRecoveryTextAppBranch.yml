@@ -1,0 +1,20 @@
+name: Block Dangerous Branch Merges
+
+on:
+  pull_request:
+    branches:
+      - main
+    types: [opened, synchronize, reopened]
+
+  workflow_dispatch:
+
+jobs:
+  block-dangerous-branch:
+    if: github.event.pull_request.head.ref == 'RecoveryTextApp' && github.event.pull_request.base.ref == 'main'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Fail if source branch is RecoveryTextApp
+        run: |
+          echo "Merging from 'RecoveryTextApp' to 'main' is prohibited."
+          exit 1
