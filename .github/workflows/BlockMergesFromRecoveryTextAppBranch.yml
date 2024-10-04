@@ -1,18 +1,20 @@
-name: Main Branch Protection from RecoveryTextApp branch
+name: Block Dangerous Branch Merges
 
 on:
   pull_request:
     branches:
       - main
+    types: [opened, synchronize, reopened]
+
+  workflow_dispatch:
 
 jobs:
-  check-source-branch:
+  block-dangerous-branch:
+    if: github.event.pull_request.head.ref == 'RecoveryTextApp' && github.event.pull_request.base.ref == 'main'
     runs-on: ubuntu-latest
+
     steps:
-      - name: Check branch
+      - name: Fail if source branch is RecoveryTextApp
         run: |
-          if [[ ${GITHUB_HEAD_REF} == RecoveryTextApp ]]; 
-          then
-            echo "Error: Pull request must NOT come from 'RecoveryTextApp' branch"
-            exit 1
-          fi
+          echo "Merging from 'RecoveryTextApp' to 'main' is prohibited."
+          exit 1
