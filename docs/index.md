@@ -30,9 +30,9 @@ We welcome contributions. Each script contains a link to their GitHub repo for c
 
   <div>
     <div style="text-align: center">
-      <a href="https://github.com/blakedrumm/SCVMM-Scripts-and-SQL"><img src="VMM.png" /></a>
+      <a href="https://github.com/microsoft/CSS-SystemCenter-VirtualMachineManager"><img src="VMM.png" /></a>
     </div>
-    <div style="text-align: center; font-size: larger"><a href="https://github.com/blakedrumm/SCVMM-Scripts-and-SQL">Virtual Machine Manager - VMM</a></div>
+    <div style="text-align: center; font-size: larger"><a href="https://github.com/microsoft/CSS-SystemCenter-VirtualMachineManager">Virtual Machine Manager - VMM</a></div>
   </div>
 
 </div>
